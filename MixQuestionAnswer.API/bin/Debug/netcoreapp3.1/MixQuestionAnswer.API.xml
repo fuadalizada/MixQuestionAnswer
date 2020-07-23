@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MixQuestionAnswer.API</name>
+    </assembly>
+    <members>
+        <member name="M:MixQuestionAnswer.API.Controllers.V1.UsersController.GetAll">
+            <summary>
+            Get All for User
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

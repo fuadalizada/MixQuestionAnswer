@@ -1,0 +1,371 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MixQuestionAnswer\\MixQuestionAnswer.API\\MixQuestionAnswer.API.csproj": {}
+  },
+  "projects": {
+    "D:\\MixQuestionAnswer\\MixQuestionAnswer.API\\MixQuestionAnswer.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MixQuestionAnswer\\MixQuestionAnswer.API\\MixQuestionAnswer.API.csproj",
+        "projectName": "MixQuestionAnswer.API",
+        "projectPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.API\\MixQuestionAnswer.API.csproj",
+        "packagesPath": "C:\\Users\\fuada\\.nuget\\packages\\",
+        "outputPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fuada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\MixQuestionAnswer\\MixQuestionAnswer.BLL\\MixQuestionAnswer.BLL.csproj": {
+                "projectPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.BLL\\MixQuestionAnswer.BLL.csproj"
+              },
+              "D:\\MixQuestionAnswer\\MixQuestionAnswer.DAL\\MixQuestionAnswer.DAL.csproj": {
+                "projectPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.DAL\\MixQuestionAnswer.DAL.csproj"
+              },
+              "D:\\MixQuestionAnswer\\MixQuestionAnswer.Domains\\MixQuestionAnswer.Domains.csproj": {
+                "projectPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.Domains\\MixQuestionAnswer.Domains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MixQuestionAnswer\\MixQuestionAnswer.BLL\\MixQuestionAnswer.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MixQuestionAnswer\\MixQuestionAnswer.BLL\\MixQuestionAnswer.BLL.csproj",
+        "projectName": "MixQuestionAnswer.BLL",
+        "projectPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.BLL\\MixQuestionAnswer.BLL.csproj",
+        "packagesPath": "C:\\Users\\fuada\\.nuget\\packages\\",
+        "outputPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fuada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\MixQuestionAnswer\\MixQuestionAnswer.Common\\MixQuestionAnswer.Common.csproj": {
+                "projectPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.Common\\MixQuestionAnswer.Common.csproj"
+              },
+              "D:\\MixQuestionAnswer\\MixQuestionAnswer.DAL\\MixQuestionAnswer.DAL.csproj": {
+                "projectPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.DAL\\MixQuestionAnswer.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MixQuestionAnswer\\MixQuestionAnswer.Common\\MixQuestionAnswer.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MixQuestionAnswer\\MixQuestionAnswer.Common\\MixQuestionAnswer.Common.csproj",
+        "projectName": "MixQuestionAnswer.Common",
+        "projectPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.Common\\MixQuestionAnswer.Common.csproj",
+        "packagesPath": "C:\\Users\\fuada\\.nuget\\packages\\",
+        "outputPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fuada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MixQuestionAnswer\\MixQuestionAnswer.DAL\\MixQuestionAnswer.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MixQuestionAnswer\\MixQuestionAnswer.DAL\\MixQuestionAnswer.DAL.csproj",
+        "projectName": "MixQuestionAnswer.DAL",
+        "projectPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.DAL\\MixQuestionAnswer.DAL.csproj",
+        "packagesPath": "C:\\Users\\fuada\\.nuget\\packages\\",
+        "outputPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fuada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\MixQuestionAnswer\\MixQuestionAnswer.Domains\\MixQuestionAnswer.Domains.csproj": {
+                "projectPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.Domains\\MixQuestionAnswer.Domains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MixQuestionAnswer\\MixQuestionAnswer.Domains\\MixQuestionAnswer.Domains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MixQuestionAnswer\\MixQuestionAnswer.Domains\\MixQuestionAnswer.Domains.csproj",
+        "projectName": "MixQuestionAnswer.Domains",
+        "projectPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.Domains\\MixQuestionAnswer.Domains.csproj",
+        "packagesPath": "C:\\Users\\fuada\\.nuget\\packages\\",
+        "outputPath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.Domains\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fuada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

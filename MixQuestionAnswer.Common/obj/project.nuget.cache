@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7GBfVR7/zKXw1W/iIQXYsAadJP0njpACC+W7gy7a3QqntkFpAxkEgpbW3fkUz7RMCalavX5god8VLPU7PcL9zg==",
+  "success": true,
+  "projectFilePath": "D:\\MixQuestionAnswer\\MixQuestionAnswer.Common\\MixQuestionAnswer.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fuada\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\fuada\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+D:\Custom\MixQuestionAnswer\MixQuestionAnswer.Common\bin\Debug\netcoreapp3.1\MixQuestionAnswer.Common.deps.json
+D:\Custom\MixQuestionAnswer\MixQuestionAnswer.Common\bin\Debug\netcoreapp3.1\MixQuestionAnswer.Common.dll
+D:\Custom\MixQuestionAnswer\MixQuestionAnswer.Common\bin\Debug\netcoreapp3.1\MixQuestionAnswer.Common.pdb
+D:\Custom\MixQuestionAnswer\MixQuestionAnswer.Common\obj\Debug\netcoreapp3.1\MixQuestionAnswer.Common.csprojAssemblyReference.cache
+D:\Custom\MixQuestionAnswer\MixQuestionAnswer.Common\obj\Debug\netcoreapp3.1\MixQuestionAnswer.Common.AssemblyInfoInputs.cache
+D:\Custom\MixQuestionAnswer\MixQuestionAnswer.Common\obj\Debug\netcoreapp3.1\MixQuestionAnswer.Common.AssemblyInfo.cs
+D:\Custom\MixQuestionAnswer\MixQuestionAnswer.Common\obj\Debug\netcoreapp3.1\MixQuestionAnswer.Common.dll
+D:\Custom\MixQuestionAnswer\MixQuestionAnswer.Common\obj\Debug\netcoreapp3.1\MixQuestionAnswer.Common.pdb
+D:\VS2019\MixQuestionAnswer\MixQuestionAnswer.Common\bin\Debug\netcoreapp3.1\MixQuestionAnswer.Common.deps.json
+D:\VS2019\MixQuestionAnswer\MixQuestionAnswer.Common\bin\Debug\netcoreapp3.1\MixQuestionAnswer.Common.dll
+D:\VS2019\MixQuestionAnswer\MixQuestionAnswer.Common\bin\Debug\netcoreapp3.1\MixQuestionAnswer.Common.pdb
+D:\VS2019\MixQuestionAnswer\MixQuestionAnswer.Common\obj\Debug\netcoreapp3.1\MixQuestionAnswer.Common.csproj.CoreCompileInputs.cache
+D:\VS2019\MixQuestionAnswer\MixQuestionAnswer.Common\obj\Debug\netcoreapp3.1\MixQuestionAnswer.Common.AssemblyInfoInputs.cache
+D:\VS2019\MixQuestionAnswer\MixQuestionAnswer.Common\obj\Debug\netcoreapp3.1\MixQuestionAnswer.Common.AssemblyInfo.cs
+D:\VS2019\MixQuestionAnswer\MixQuestionAnswer.Common\obj\Debug\netcoreapp3.1\MixQuestionAnswer.Common.dll
+D:\VS2019\MixQuestionAnswer\MixQuestionAnswer.Common\obj\Debug\netcoreapp3.1\MixQuestionAnswer.Common.pdb
